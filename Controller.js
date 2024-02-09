@@ -17,7 +17,7 @@ class Controller {
       const answer = await this.view.askQuestion(fileData[i][0]);
 
       if (answer.answer === fileData[i][1]) {
-        this.view.showResult(true);
+        View.howResult(true);
         this.model.score += 1;
       } else this.view.showResult(false);
     }
