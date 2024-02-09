@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "enquirer": "^2.4.1",
+    "inquirer": "^9.2.14",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
