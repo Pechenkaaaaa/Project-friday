@@ -9,6 +9,7 @@ function checkAnsw(questionsObj, userAnswer) {
 
     if (normUserAnswer === normCorrectAnswer) {
       return true;
+      
     }
   });
 
